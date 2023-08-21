@@ -1,0 +1,75 @@
+.main-banner {
+  display: flex;
+  justify-content: space-between;
+  height: calc(100vh - 4px);
+  margin-bottom: 100px;
+
+  .left-content {
+    flex: 2;
+
+    .content-wrap {
+      padding-top: 10%;
+      padding-left: 15%;
+    }
+  }
+
+  span {
+    font-weight: 700;
+  }
+
+  .banner-img {
+    flex: 2;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+
+
+.title {
+  @include res-font(40, 120);
+  font-weight: 400;
+  line-height: 110%;
+
+  span {
+    font-weight: 800;
+  }
+}
+
+.para-text {
+  font-weight: 400;
+  @include res-font(16, 22);
+  line-height: 158%;
+  color: #181F1B;
+  opacity: 0.7;
+  letter-spacing: 0.03rem;
+  margin-bottom: 40px;
+  max-width: 70%;
+}
+
+.call-to-action {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  a {
+    border: 1px solid #7C7C7C;
+    display: flex;
+    align-items: center;
+    color: #000;
+    padding: 1rem 2.5rem;
+    border-radius: 0.6rem;
+    gap: 10px;
+    font-weight: 600;
+
+    &.btn-primary {
+      background: #58BF73;
+      color: #fff;
+      border: none;
+    }
+  }
+}

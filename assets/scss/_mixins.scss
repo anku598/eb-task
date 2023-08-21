@@ -1,0 +1,50 @@
+@mixin res-font($min, $max) {
+  font-size: calc(#{$min}px + (#{$max} - #{$min}) * ((100vw - 360px) / (1920 - 360)));
+}
+
+@mixin mediaSm {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mediaMd {
+  @media (min-width: 769px) and (max-width: 991.98px) {
+    @content;
+  }
+}
+
+@mixin mediaLg {
+  @media (min-width: 992px) and (max-width: 1170.98px) {
+    @content;
+  }
+}
+
+@mixin mediaXl {
+  @media screen and (min-width: 1171px) {
+    @content;
+  }
+}
+
+// Common Button
+
+@mixin CommonButton {
+  background: #58BF73;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  color: #000;
+  padding: 1rem 2.5rem;
+  border-radius: 0.6rem;
+  gap: 10px;
+  font-weight: 600;
+  @content;
+}
+
+@mixin SectionTitle {
+  color: $primary-color;
+  @include res-font(20, 45);
+  line-height: 127%;
+  font-weight: 500;
+
+}
