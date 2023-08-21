@@ -1,136 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Front End</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Front End</title>
-</head>
+  <body>
+    <div id="app">
+      <!-- Banner section -->
 
-<body>
-  <div id="app">
+      <section class="main-banner">
+        <div class="left-content">
+          <div class="content-wrap">
+            <h2 class="title">
+              Lore <span>ipsum</span>. Dolor <span>sit.</span>
+            </h2>
+            <div class="para-text">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatu. Sed ut perspiciatis unde
+              omnis iste natus error.
+            </div>
 
-    <!-- Banner section -->
-
-    <section class="main-banner">
-      <div class="left-content">
-        <div class="content-wrap">
-          <h2 class="title">Lore <span>ipsum</span>. Dolor <span>sit.</span></h2>
-          <div class="para-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatu. Sed ut perspiciatis unde omnis iste natus error.</div>
-
-          <div class="call-to-action">
-            <a href="#" class="btn">
-              <p>Viverra orci sagittis</p>
-            </a>
-            <a href="#" class="btn btn-primary">
-              <img class="btn-icon" src="./assets/icons/btn-icon.svg" alt="Button Icon">
-              <p>Get a demo</p>
-            </a>
+            <div class="call-to-action">
+              <a href="#" class="btn">
+                <p>Viverra orci sagittis</p>
+              </a>
+              <a href="#" class="btn btn-primary">
+                <img
+                  class="btn-icon"
+                  src="./assets/icons/btn-icon.svg"
+                  alt="Button Icon"
+                />
+                <p>Get a demo</p>
+              </a>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="banner-img">
-        <img src="./assets/images/banner-img.jpg" alt="Banner Image">
-      </div>
-    </section>
+        <div class="banner-img">
+          <img src="./assets/images/banner-img.jpg" alt="Banner Image" />
+        </div>
+      </section>
 
+      <!-- Table Section  -->
 
-    <!-- Table Section  -->
+      <section class="table-section-wrapper">
+        <div class="section-title">
+          Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+          suscipit
+        </div>
 
-    <section class="table-section-wrapper">
-      <div class="section-title">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit</div>
+        <div class="grid-table">
+          <!-- Header Row -->
+          <div class="cell header">Source</div>
+          <div class="cell header">Ad</div>
+          <div class="cell header">Cost</div>
+          <div class="cell header">Sales</div>
+          <div class="cell header">First Time Customers</div>
+          <div class="cell header">Revenue</div>
+          <div class="cell header">ROAS</div>
+          <div class="cell header">CAC</div>
+          <div class="cell header">F.T.ROAS</div>
 
+          <!-- Sample Data Row -->
+          <div class="cell">Youtube</div>
+          <div class="cell">Male_18+_UGC_Video</div>
+          <div class="cell">$2,567.00</div>
+          <div class="cell">120</div>
+          <div class="cell">90</div>
+          <div class="cell">$10,800.00</div>
+          <div class="cell light-highlight-bg">4.21</div>
+          <div class="cell">$28.52</div>
+          <div class="cell">3.16</div>
 
-      <div class="grid-table">
-        <!-- Header Row -->
-        <div class="cell header">Source</div>
-        <div class="cell header">Ad</div>
-        <div class="cell header">Cost</div>
-        <div class="cell header">Sales</div>
-        <div class="cell header">First Time Customers</div>
-        <div class="cell header">Revenue </div>
-        <div class="cell header">ROAS</div>
-        <div class="cell header">CAC</div>
-        <div class="cell header"> F.T.ROAS </div>
+          <div class="cell">Youtube</div>
+          <div class="cell">Male_18+_UGC_Video</div>
+          <div class="cell">$2,567.00</div>
+          <div class="cell">120</div>
+          <div class="cell">90</div>
+          <div class="cell">$10,800.00</div>
+          <div class="cell light-highlight-bg">4.21</div>
+          <div class="cell">$28.52</div>
+          <div class="cell">3.16</div>
 
-        <!-- Sample Data Row -->
-        <div class="cell">Youtube</div>
-        <div class="cell">Male_18+_UGC_Video</div>
-        <div class="cell">$2,567.00</div>
-        <div class="cell">120</div>
-        <div class="cell">90</div>
-        <div class="cell">$10,800.00</div>
-        <div class="cell light-highlight-bg">4.21</div>
-        <div class="cell">$28.52</div>
-        <div class="cell">3.16</div>
+          <div class="cell">Youtube</div>
+          <div class="cell">Male_18+_UGC_Video</div>
+          <div class="cell">$2,567.00</div>
+          <div class="cell">120</div>
+          <div class="cell">90</div>
+          <div class="cell">$10,800.00</div>
+          <div class="cell light-highlight-bg">4.21</div>
+          <div class="cell">$28.52</div>
+          <div class="cell light-highlight-bg">3.16</div>
 
-        <div class="cell">Youtube</div>
-        <div class="cell">Male_18+_UGC_Video</div>
-        <div class="cell">$2,567.00</div>
-        <div class="cell">120</div>
-        <div class="cell">90</div>
-        <div class="cell">$10,800.00</div>
-        <div class="cell light-highlight-bg">4.21</div>
-        <div class="cell">$28.52</div>
-        <div class="cell">3.16</div>
+          <div class="cell">Youtube</div>
+          <div class="cell">Male_18+_UGC_Video</div>
+          <div class="cell">$2,567.00</div>
+          <div class="cell">120</div>
+          <div class="cell">90</div>
+          <div class="cell">$10,800.00</div>
+          <div class="cell">4.21</div>
+          <div class="cell">$28.52</div>
+          <div class="cell">3.16</div>
 
-        <div class="cell">Youtube</div>
-        <div class="cell">Male_18+_UGC_Video</div>
-        <div class="cell">$2,567.00</div>
-        <div class="cell">120</div>
-        <div class="cell">90</div>
-        <div class="cell">$10,800.00</div>
-        <div class="cell light-highlight-bg">4.21</div>
-        <div class="cell">$28.52</div>
-        <div class="cell light-highlight-bg">3.16</div>
+          <div class="cell">Youtube</div>
+          <div class="cell">Male_18+_UGC_Video</div>
+          <div class="cell">$2,567.00</div>
+          <div class="cell">120</div>
+          <div class="cell">90</div>
+          <div class="cell">$10,800.00</div>
+          <div class="cell light-highlight-bg dark-highlight">4.21</div>
+          <div class="cell">$28.52</div>
+          <div class="cell dark-highlight">3.16</div>
 
-        <div class="cell">Youtube</div>
-        <div class="cell">Male_18+_UGC_Video</div>
-        <div class="cell">$2,567.00</div>
-        <div class="cell">120</div>
-        <div class="cell">90</div>
-        <div class="cell">$10,800.00</div>
-        <div class="cell">4.21</div>
-        <div class="cell">$28.52</div>
-        <div class="cell">3.16</div>
+          <div class="cell">Youtube</div>
+          <div class="cell">Male_18+_UGC_Video</div>
+          <div class="cell">$2,567.00</div>
+          <div class="cell">120</div>
+          <div class="cell">90</div>
+          <div class="cell">$10,800.00</div>
+          <div class="cell light-highlight-bg">4.21</div>
+          <div class="cell">$28.52</div>
+          <div class="cell">3.16</div>
+        </div>
+      </section>
 
-        <div class="cell">Youtube</div>
-        <div class="cell">Male_18+_UGC_Video</div>
-        <div class="cell">$2,567.00</div>
-        <div class="cell">120</div>
-        <div class="cell">90</div>
-        <div class="cell">$10,800.00</div>
-        <div class="cell light-highlight-bg dark-highlight">4.21</div>
-        <div class="cell">$28.52</div>
-        <div class="cell dark-highlight">3.16</div>
+      <!-- Two Column Layout -->
 
-        <div class="cell">Youtube</div>
-        <div class="cell">Male_18+_UGC_Video</div>
-        <div class="cell">$2,567.00</div>
-        <div class="cell">120</div>
-        <div class="cell">90</div>
-        <div class="cell">$10,800.00</div>
-        <div class="cell light-highlight-bg">4.21</div>
-        <div class="cell">$28.52</div>
-        <div class="cell">3.16</div>
+      <section class="two-col-layout">
+        <div class="left-col">
+          <div class="content-wrap">
+            <h2 class="title">
+              Sed ut perspiciatis unde omnis iste natus error.
+              <span>Try out!</span>
+            </h2>
+            <div class="para-text">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatu. Sed ut perspiciatis unde
+              omnis iste natus error.
+            </div>
 
-      </div>
+            <div class="call-to-action">
+              <a href="#" class="btn btn-primary">
+                <p>Try Out Now!</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="right-col">
+          <div>
+            <div class="icon">
+              <img src="./assets/icons/g-drive-icon.svg" alt="" />
+            </div>
 
-    </section>
+            <div class="icon">
+              <img src="./assets/icons/fb-icons.svg" alt="" />
+            </div>
 
+            <div class="icon">
+              <img src="./assets/icons/shopify-icon.svg" alt="" />
+            </div>
+          </div>
 
-    <!-- Two Column Layout -->
+          <div class="middle-items">
+            <div class="icon">
+              <img src="./assets/icons/tictoc.svg" alt="" />
+            </div>
 
-    <section class="two-col-layout">
-      <div class="left-col">
-        <div class="content-wrap">
-          <h2 class="title">Sed ut perspiciatis unde omnis iste natus error. <span>Try out!</span></h2>
-          <div class="para-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-            fugiat
-            nulla pariatu. Sed ut perspiciatis unde omnis iste natus error.</div>
+            <div class="icon">
+              <img src="./assets/icons/pinterest.svg" alt="" />
+              <p>Coming soon</p>
+            </div>
+
+            <div class="icon">
+              <img src="./assets/icons/twitter.svg" alt="" />
+              <p>Coming soon</p>
+            </div>
+          </div>
+
+          <div>
+            <div class="icon">
+              <img src="./assets/icons/snapchat.svg" alt="" />
+              <p>Coming soon</p>
+            </div>
+
+            <div class="icon">
+              <img src="./assets/icons/round-icon.svg" alt="" />
+              <p>Coming soon</p>
+            </div>
+
+            <div class="icon">
+              <img src="./assets/icons/reddit.svg" alt="" />
+              <p>Coming soon</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card-section">
+        <div class="card-item">
+          <div class="card-icon">
+            <img src="./assets/icons/availability.svg" alt="" />
+          </div>
+
+          <div class="card-title">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          </div>
+          <div class="card-text">
+            Convallis a cras semper auctor neque. Fringilla est ullamcorper eget
+            nulla facilisi etiam dignissim, eiusmod tempor incididunt ut labore
+          </div>
+        </div>
+
+        <div class="card-item">
+          <div class="card-icon">
+            <img src="./assets/icons/availability.svg" alt="" />
+          </div>
+
+          <div class="card-title">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          </div>
+          <div class="card-text">
+            Convallis a cras semper auctor neque. Fringilla est ullamcorper eget
+            nulla facilisi etiam dignissim, eiusmod tempor incididunt ut labore
+          </div>
+        </div>
+
+        <div class="card-item">
+          <div class="card-icon">
+            <img src="./assets/icons/availability.svg" alt="" />
+          </div>
+
+          <div class="card-title">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+          </div>
+          <div class="card-text">
+            Convallis a cras semper auctor neque. Fringilla est ullamcorper eget
+            nulla facilisi etiam dignissim, eiusmod tempor incididunt ut labore
+          </div>
+        </div>
+      </section>
+
+      <!-- side tab item section -->
+
+      <section class="side-tab-wrapper">
+        <div class="left-col">
+          <div class="section-title">Nemo enim ipsam quia</div>
+          <div class="section-txt">
+            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+            consectetur, adipisci velit, sed qu nemo enim
+          </div>
+
+          <ul class="list-wrapper">
+            <li class="list-item">
+              <img src="./assets/icons/play-icon.svg" alt="" />
+              <div class="list-title">Sed ut perspiciatis unde</div>
+            </li>
+
+            <li class="list-item">
+              <img src="./assets/icons/play-icon.svg" alt="" />
+              <div class="list-title">Sed ut perspiciatis unde</div>
+            </li>
+
+            <li class="list-item">
+              <img src="./assets/icons/play-icon.svg" alt="" />
+              <div class="list-title">Sed ut perspiciatis unde</div>
+            </li>
+
+            <li class="list-item">
+              <img src="./assets/icons/play-icon.svg" alt="" />
+              <div class="list-title">Sed ut perspiciatis unde</div>
+            </li>
+          </ul>
 
           <div class="call-to-action">
             <a href="#" class="btn btn-primary">
@@ -138,203 +281,207 @@
             </a>
           </div>
         </div>
-      </div>
-      <div class="right-col">
-        <div>
+        <div class="right-col">
+          <div class="info-box">
+            <img src="./assets/icons/table-info.svg" alt="Table Info" />
+          </div>
+        </div>
+      </section>
+
+      <!-- chart & graph section -->
+
+      <section class="chart-container">
+        <div class="section-title">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+        </div>
+        <div class="section-txt">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore
+        </div>
+
+        <div class="graph-img">
+          <img src="./assets/images/graph-img.svg" alt="Graph Image" />
+        </div>
+
+        <div class="two-col-table">
+          <div class="table-1 table">
+            <div class="table-title">Facebook Data</div>
+            <div class="table-wrapper">
+              <div class="cell header">Source</div>
+              <div class="cell header">Ad</div>
+              <div class="cell header">Cost</div>
+
+              <div class="cell">Youtube</div>
+              <div class="cell">Male_18+_UGC_Video</div>
+              <div class="cell">$2,567.00</div>
+
+              <div class="cell">Youtube</div>
+              <div class="cell">Male_18+_UGC_Video</div>
+              <div class="cell">$2,567.00</div>
+
+              <div class="cell">Youtube</div>
+              <div class="cell">Male_18+_UGC_Video</div>
+              <div class="cell active-orange">$2,567.00</div>
+            </div>
+          </div>
+          <div class="table-2 table">
+            <div class="table-1">
+              <div class="table-title">Logoipsum data</div>
+              <div class="table-wrapper">
+                <div class="cell header">Source</div>
+                <div class="cell header">Ad</div>
+                <div class="cell header">Cost</div>
+
+                <div class="cell">Youtube</div>
+                <div class="cell">Male_18+_UGC_Video</div>
+                <div class="cell">$2,567.00</div>
+
+                <div class="cell">Youtube</div>
+                <div class="cell">Male_18+_UGC_Video</div>
+                <div class="cell">$2,567.00</div>
+
+                <div class="cell">Youtube</div>
+                <div class="cell">Male_18+_UGC_Video</div>
+                <div class="cell active-dark">$2,567.00</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bar-chart-box-container">
+          <div class="column1">
+            <div class="section-title">Consectetur adipiscing elit</div>
+            <div class="section-txt">
+              Convallis a cras semper auctor neque. Fringilla est ullamcorper
+              eget nulla facilisi etiam dignissim viverra
+            </div>
+          </div>
+
+          <div class="column2">
+            <div class="bar-box">
+              <div class="img-box">
+                <img src="./assets/icons/green-bar-chart.svg" alt="Bar" />
+              </div>
+              <div class="bar-name green">First Touch</div>
+            </div>
+
+            <div class="bar-box">
+              <div class="img-box">
+                <img src="./assets/icons/orange-bar-chart.svg" alt="Bar" />
+              </div>
+              <div class="bar-name orange">Last Touch</div>
+            </div>
+
+            <div class="customer-info">
+              <span>3</span>
+              <p>+Customer Ones</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- full Column with social media links section  -->
+
+      <div class="full-width-container">
+        <div class="section-title">
+          Ullamcorper morbi tincidunt ornare massa eget. Quam viverra orci
+          sagittis eu volutpat odio
+        </div>
+        <div class="section-txt">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore
+        </div>
+
+        <div class="social-links">
           <div class="icon">
-            <img src="./assets/icons/g-drive-icon.svg" alt="">
+            <img src="./assets/icons/g-drive-icon.svg" alt="" />
           </div>
 
-          <div class="icon">
-            <img src="./assets/icons/fb-icons.svg" alt="">
-          </div>
+          <div>
+            <div class="icon">
+              <img src="./assets/icons/fb-icons.svg" alt="" />
+            </div>
 
-          <div class="icon">
-            <img src="./assets/icons/shopify-icon.svg" alt="">
-          </div>
-        </div>
-
-        <div class="middle-items">
-          <div class="icon">
-            <img src="./assets/icons/tictoc.svg" alt="">
-          </div>
-
-          <div class="icon">
-            <img src="./assets/icons/pinterest.svg" alt="">
-            <p>Coming soon </p>
-          </div>
-
-          <div class="icon">
-            <img src="./assets/icons/twitter.svg" alt="">
-            <p>Coming soon </p>
-          </div>
-        </div>
-
-        <div>
-          <div class="icon">
-            <img src="./assets/icons/snapchat.svg" alt="">
-            <p>Coming soon </p>
-          </div>
-
-          <div class="icon">
-            <img src="./assets/icons/round-icon.svg" alt="">
-            <p>Coming soon </p>
-          </div>
-
-          <div class="icon">
-            <img src="./assets/icons/reddit.svg" alt="">
-            <p>Coming soon </p>
+            <div class="icon">
+              <img src="./assets/icons/shopify-icon.svg" alt="" />
+            </div>
           </div>
         </div>
       </div>
-    </section>
 
-    <section class="card-section">
-      <div class="card-item">
-        <div class="card-icon">
-          <img src="./assets/icons/availability.svg" alt="">
-        </div>
+      <!-- Apply Section here  -->
 
-        <div class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
-        <div class="card-text">Convallis a cras semper auctor neque. Fringilla est ullamcorper eget nulla facilisi etiam
-          dignissim, eiusmod tempor incididunt ut labore</div>
-      </div>
-
-      <div class="card-item">
-        <div class="card-icon">
-          <img src="./assets/icons/availability.svg" alt="">
-        </div>
-
-        <div class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
-        <div class="card-text">Convallis a cras semper auctor neque. Fringilla est ullamcorper eget nulla facilisi etiam
-          dignissim, eiusmod tempor incididunt ut labore</div>
-      </div>
-
-      <div class="card-item">
-        <div class="card-icon">
-          <img src="./assets/icons/availability.svg" alt="">
-        </div>
-
-        <div class="card-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
-        <div class="card-text">Convallis a cras semper auctor neque. Fringilla est ullamcorper eget nulla facilisi etiam
-          dignissim, eiusmod tempor incididunt ut labore</div>
-      </div>
-    </section>
-
-
-    <!-- side tab item section -->
-
-    <section class="side-tab-wrapper">
-      <div class="left-col">
-        <div class="section-title">Nemo enim ipsam quia </div>
-        <div class="section-txt">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-          velit, sed qu nemo enim</div>
-
-        <ul class="list-wrapper">
-          <li class="list-item">
-            <img src="./assets/icons/play-icon.svg" alt="">
-            <div class="list-title">Sed ut perspiciatis unde</div>
-          </li>
-
-          <li class="list-item">
-            <img src="./assets/icons/play-icon.svg" alt="">
-            <div class="list-title">Sed ut perspiciatis unde</div>
-          </li>
-
-          <li class="list-item">
-            <img src="./assets/icons/play-icon.svg" alt="">
-            <div class="list-title">Sed ut perspiciatis unde</div>
-          </li>
-
-          <li class="list-item">
-            <img src="./assets/icons/play-icon.svg" alt="">
-            <div class="list-title">Sed ut perspiciatis unde</div>
-          </li>
-        </ul>
-
-        <div class="call-to-action">
-          <a href="#" class="btn btn-primary">
-            <p>Try Out Now!</p>
-          </a>
-        </div>
-      </div>
-      <div class="right-col">
-        <div class="info-box">
-          <img src="./assets/icons/table-info.svg" alt="Table Info">
-        </div>
-      </div>
-    </section>
-
-
-    <section class="two-col-layout apply-container">
-      <div class="left-col">
-        <div class="content-wrap">
-          <h2 class="title">Sed ut perspiciatis unde omnis iste natus error. <span>Try out!</span></h2>
-          <div class="para-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-            fugiat
-            nulla pariatu. Sed ut perspiciatis unde omnis iste natus error.</div>
-
-
-        </div>
-      </div>
-      <div class="right-col">
-        <div class="call-to-action">
-          <a href="#" class="btn btn-primary">
-            <p>Apply Now</p>
-          </a>
-        </div>
-
-      </div>
-    </section>
-
-
-    <footer class="footer">
-      <div class="footer-container">
-        <div class="footer-menu">
-          <div class="menu1">
-            <ul>
-              <div class="menu-header">Products</div>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Features</a></li>
-            </ul>
-          </div>
-          <div class="menu2">
-            <ul>
-              <div class="menu-header">Products</div>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Features</a></li>
-            </ul>
-          </div>
-          <div class="menu3">
-            <ul>
-              <div class="menu-header">Products</div>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Features</a></li>
-            </ul>
+      <section class="two-col-layout apply-container">
+        <div class="left-col">
+          <div class="content-wrap">
+            <h2 class="title">
+              Sed ut perspiciatis unde omnis iste natus error.
+              <span>Try out!</span>
+            </h2>
+            <div class="para-text">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatu. Sed ut perspiciatis unde
+              omnis iste natus error.
+            </div>
           </div>
         </div>
+        <div class="right-col">
+          <div class="call-to-action">
+            <a href="#" class="btn btn-primary">
+              <p>Apply Now</p>
+            </a>
+          </div>
+        </div>
+      </section>
 
-        <div class="footer-logo-container">
-          <div class="logo">
-            <img src="./assets/icons/footer-logo.svg" alt="Footer Logo">
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-menu">
+            <div class="menu1">
+              <ul>
+                <div class="menu-header">Products</div>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Features</a></li>
+              </ul>
+            </div>
+            <div class="menu2">
+              <ul>
+                <div class="menu-header">Products</div>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Features</a></li>
+              </ul>
+            </div>
+            <div class="menu3">
+              <ul>
+                <div class="menu-header">Products</div>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Features</a></li>
+              </ul>
+            </div>
           </div>
 
-          <div class="footer-txt">Tristique senectus et netus et malesuada fames</div>
+          <div class="footer-logo-container">
+            <div class="logo">
+              <img src="./assets/icons/footer-logo.svg" alt="Footer Logo" />
+            </div>
 
-          <div class="copyright-section">©2023 Logoipsum. All rights reserved</div>
+            <div class="footer-txt">
+              Tristique senectus et netus et malesuada fames
+            </div>
+
+            <div class="copyright-section">
+              ©2023 Logoipsum. All rights reserved
+            </div>
+          </div>
         </div>
-      </div>
-    </footer>
-
-
-  </div>
-  <script type="module" src="/main.js"></script>
-</body>
-
+      </footer>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
 </html>

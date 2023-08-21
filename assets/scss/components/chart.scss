@@ -1,0 +1,191 @@
+.chart-container {
+  .section-title {
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+  .section-txt {
+    font-weight: 400;
+    @include res-font(16, 22);
+    line-height: 158%;
+    color: #181f1b;
+    opacity: 0.7;
+    letter-spacing: 0.03rem;
+    max-width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .graph-img {
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  .two-col-table {
+    display: flex;
+    max-width: 60%;
+    margin: 0 auto;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 100px;
+
+    .table {
+      display: flex;
+      flex-direction: column;
+
+      .table-title {
+        color: #181f1b;
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+        text-transform: capitalize;
+        text-align: center;
+        font-weight: 600;
+      }
+      .table-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-bottom: 50px;
+        box-shadow: -9px -9px 16px 0px rgba(238, 238, 238, 0.6),
+          10px 10px 17px 0px rgba(193, 208, 195, 0.26);
+        .cell {
+          font-size: 1.125rem;
+          text-transform: capitalize;
+          text-align: center;
+          padding: 15px 15px;
+          background: $table-bg;
+          border-radius: 0.375rem;
+          margin: 1px;
+          &.active-orange {
+            background: #f6d45b;
+          }
+
+          &.active-dark {
+            background: $table-bg-highlighted;
+          }
+
+          &.header {
+            background-color: rgba($color: #e3e3e3, $alpha: 0.6);
+            text-align: center;
+            font-size: 1.125rem;
+            font-weight: 600;
+            padding: 15px 15px !important;
+            border-radius: 0rem;
+            margin: 0;
+            margin-bottom: 1px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          &.light-highlight-bg {
+            background: $table-bg-light;
+          }
+
+          &.dark-highlight {
+            background: $table-bg-highlighted;
+          }
+        }
+      }
+    }
+  }
+}
+
+.bar-chart-box-container {
+  display: flex;
+  align-items: center;
+  max-width: 60%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+
+  .section-title {
+    margin-left: 0;
+    max-width: 75%;
+    text-align: left;
+  }
+
+  .section-txt {
+    text-align: left;
+    margin-left: 0;
+    max-width: 80%;
+  }
+
+  .column1 {
+    flex: 1;
+  }
+
+  .column2 {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    flex: 1;
+
+    .bar-box {
+      .img-box {
+        box-shadow: -9px -9px 16px 0px rgba(238, 238, 238, 0.6),
+          10px 10px 17px 0px rgba(193, 208, 195, 0.26);
+        border-radius: 1.25rem;
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 130px;
+        height: 130px;
+        padding: 40px;
+        margin-bottom: 10px;
+      }
+
+      .bar-name {
+        box-shadow: -9px -9px 16px 0px rgba(238, 238, 238, 0.6),
+          10px 10px 17px 0px rgba(193, 208, 195, 0.26);
+        border-radius: 10px;
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        font-weight: 500;
+        text-align: center;
+        padding: 10px 0;
+        text-transform: capitalize;
+        @include res-font(15, 20);
+
+        &.green {
+          color: #58bf73;
+        }
+
+        &.orange {
+          color: #ffc646;
+        }
+      }
+    }
+
+    .customer-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      box-shadow: -9px -9px 16px 0px rgba(238, 238, 238, 0.6),
+        10px 10px 17px 0px rgba(193, 208, 195, 0.26);
+      border: 2px solid rgba(255, 255, 255, 0.2);
+      background: #fff;
+      width: 190px;
+      height: 202px;
+      border-radius: 100%;
+      margin-left: 40px;
+
+      span {
+        @include res-font(30, 80);
+        font-weight: 400;
+        color: #000;
+        margin-bottom: 0;
+      }
+
+      p {
+        @include res-font(16, 25);
+        color: #000;
+        text-align: center;
+      }
+    }
+  }
+}
