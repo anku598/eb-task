@@ -1,0 +1,40 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  border: 0px solid #f3f3f3;
+  background: #fff;
+  box-shadow: 0px 6px 4px 0px rgba(27, 83, 49, 0.24);
+  padding: 20px 7.5%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+
+  .left-container {
+    display: flex;
+    gap: 150px;
+    align-items: center;
+
+    .nav-items {
+      display: flex;
+      gap: 30px;
+      a {
+        display: flex;
+        gap: 5px;
+        @include res-font(15, 20);
+        font-weight: 500;
+        color: #000;
+        &.active-menu {
+          color: #58bf73;
+          font-weight: 400;
+        }
+        .arrow {
+          margin-top: -2px;
+        }
+        p {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

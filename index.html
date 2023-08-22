@@ -9,6 +9,43 @@
 
   <body>
     <div id="app">
+      <!-- Navbar Here  -->
+
+      <nav>
+        <div class="left-container">
+          <a href="#" class="nav-logo">
+            <img src="./assets/logo.svg" alt="Logo" />
+          </a>
+
+          <div class="nav-items">
+            <a href="#" class="active-menu">
+              <p>Products</p>
+              <div class="arrow">
+                <img src="./assets/icons/down-arrow.svg" alt="Down Arrow" />
+              </div>
+            </a>
+
+            <a href="#">
+              <p>About Us</p>
+            </a>
+
+            <a href="#">
+              <p>Contact Us</p>
+            </a>
+          </div>
+        </div>
+        <div class="right-container">
+          <div class="call-to-action">
+            <a href="#" class="btn btn-primary">
+              <p>Get Started</p>
+            </a>
+            <a href="#" class="btn">
+              <p>Login</p>
+            </a>
+          </div>
+        </div>
+      </nav>
+
       <!-- Banner section -->
 
       <section class="main-banner">
@@ -409,6 +446,108 @@
         </div>
       </div>
 
+      <section class="table-section-wrapper">
+        <div class="grid-table grid-table-2">
+          <!-- Header Row -->
+          <div class="cell header">Date</div>
+          <div class="cell header">Users</div>
+          <div class="cell header">Week 0</div>
+          <div class="cell header">Week 1</div>
+          <div class="cell header">Week 2</div>
+          <div class="cell header">Week 3</div>
+          <div class="cell header">Week 4</div>
+          <div class="cell header">Week 5</div>
+          <div class="cell header">Week 6</div>
+          <div class="cell header">Week 7</div>
+          <div class="cell header">Week 8</div>
+
+          <!-- Sample Data Row -->
+          <div class="cell">06-17 - 06-23</div>
+          <div class="cell">1476</div>
+          <div class="cell light-highlight-bg">$209</div>
+          <div class="cell light-highlight-bg">$219</div>
+          <div class="cell light-highlight-bg">$230</div>
+          <div class="cell light-highlight-bg">$242</div>
+          <div class="cell dark-medium-highlight">$254</div>
+          <div class="cell dark-medium-highlight">$267</div>
+          <div class="cell dark-medium-highlight">$280</div>
+          <div class="cell">$294</div>
+          <div class="cell">$309</div>
+
+          <div class="cell">06-17 - 06-23</div>
+          <div class="cell">1476</div>
+          <div class="cell light-highlight-bg">$209</div>
+          <div class="cell light-highlight-bg">$219</div>
+          <div class="cell light-highlight-bg">$230</div>
+          <div class="cell light-highlight-bg">$242</div>
+          <div class="cell dark-highlight">$254</div>
+          <div class="cell dark-highlight">$267</div>
+          <div class="cell dark-highlight">$280</div>
+          <div class="cell dark-highlight">$294</div>
+          <div class="cell"></div>
+
+          <div class="cell">06-17 - 06-23</div>
+          <div class="cell">1476</div>
+          <div class="cell light-highlight-bg">$209</div>
+          <div class="cell light-highlight-bg">$219</div>
+          <div class="cell light-highlight-bg">$230</div>
+          <div class="cell light-highlight-bg">$242</div>
+          <div class="cell dark-medium-highlight">$254</div>
+          <div class="cell dark-medium-highlight">$267</div>
+          <div class="cell light-highlight-bg">$280</div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+
+          <div class="cell">06-17 - 06-23</div>
+          <div class="cell">1476</div>
+          <div class="cell">$209</div>
+          <div class="cell">$219</div>
+          <div class="cell">$230</div>
+          <div class="cell">$242</div>
+          <div class="cell">$254</div>
+          <div class="cell">$267</div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+
+          <div class="cell">06-17 - 06-23</div>
+          <div class="cell">1476</div>
+          <div class="cell dark-medium-highlight">$209</div>
+          <div class="cell dark-medium-highlight">$219</div>
+          <div class="cell dark-medium-highlight">$230</div>
+          <div class="cell dark-medium-highlight">$242</div>
+          <div class="cell dark-highlight">$254</div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+
+          <div class="cell">06-17 - 06-23</div>
+          <div class="cell">1476</div>
+          <div class="cell dark-medium-highlight">$209</div>
+          <div class="cell dark-medium-highlight">$219</div>
+          <div class="cell dark-medium-highlight">$230</div>
+          <div class="cell dark-highlight">$242</div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+
+          <div class="cell">06-17 - 06-23</div>
+          <div class="cell">1476</div>
+          <div class="cell dark-highlight">$209</div>
+          <div class="cell dark-highlight">$219</div>
+          <div class="cell dark-highlight">$230</div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+        </div>
+      </section>
+
       <!-- Apply Section here  -->
 
       <section class="two-col-layout apply-container">
@@ -418,7 +557,7 @@
               Sed ut perspiciatis unde omnis iste natus error.
               <span>Try out!</span>
             </h2>
-            <div class="para-text">
+            <div class="para-text apply">
               Duis aute irure dolor in reprehenderit in voluptate velit esse
               cillum dolore eu fugiat nulla pariatu. Sed ut perspiciatis unde
               omnis iste natus error.
@@ -481,6 +620,19 @@
           </div>
         </div>
       </footer>
+    </div>
+
+    <!-- smaller screens messager  -->
+
+    <div class="small-screen-container">
+      <h2>Please see the design on Desktop</h2>
+      <p>
+        There isn't a Figma design available for mobile and tablet views. The
+        Figma file only contains a screen size of 1920px. Additionally, the task
+        didn't specify creating a mobile version. Therefore, please use a
+        desktop view to review the task's outcome.
+      </p>
+      <h4>have a good day</h4>
     </div>
     <script type="module" src="/main.js"></script>
   </body>

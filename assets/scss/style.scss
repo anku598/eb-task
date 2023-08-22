@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 @import "variables";
 @import "mixins";
+@import "./components/navbar.scss";
 @import "./components/banner.scss";
 @import "./components/table.scss";
 @import "./components/twocollayout.scss";
@@ -30,4 +31,45 @@ img {
 
 a {
   text-decoration: none;
+}
+
+#app {
+  @media screen and (max-width: 1171px) {
+    display: none;
+  }
+}
+
+.small-screen-container {
+  display: none;
+  @media screen and (max-width: 1171px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+
+    h2 {
+      color: #000;
+      @include res-font(24, 30);
+      font-weight: 800;
+      margin-bottom: 25px;
+    }
+
+    p {
+      font-weight: 400;
+      @include res-font(14, 22);
+      line-height: 158%;
+      color: #181f1b;
+      opacity: 0.7;
+      letter-spacing: 0.03rem;
+      margin-bottom: 25px;
+    }
+
+    h4 {
+      text-transform: capitalize;
+    }
+  }
 }

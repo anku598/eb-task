@@ -1,14 +1,15 @@
 .main-banner {
   display: flex;
   justify-content: space-between;
-  height: calc(100vh - 4px);
+  height: calc(100vh - 93px);
   margin-bottom: 100px;
+  margin-top: 93px;
 
   .left-content {
     flex: 2;
-
+    display: flex;
+    align-items: center;
     .content-wrap {
-      padding-top: 10%;
       padding-left: 15%;
     }
   }
@@ -28,8 +29,6 @@
   }
 }
 
-
-
 .title {
   @include res-font(40, 120);
   font-weight: 400;
@@ -44,11 +43,15 @@
   font-weight: 400;
   @include res-font(16, 22);
   line-height: 158%;
-  color: #181F1B;
+  color: #181f1b;
   opacity: 0.7;
   letter-spacing: 0.03rem;
   margin-bottom: 40px;
   max-width: 70%;
+
+  &.apply {
+    max-width: 100%;
+  }
 }
 
 .call-to-action {
@@ -57,7 +60,7 @@
   gap: 30px;
 
   a {
-    border: 1px solid #7C7C7C;
+    border: 1px solid #7c7c7c;
     display: flex;
     align-items: center;
     color: #000;
@@ -67,7 +70,7 @@
     font-weight: 600;
 
     &.btn-primary {
-      background: #58BF73;
+      background: #58bf73;
       color: #fff;
       border: none;
     }
